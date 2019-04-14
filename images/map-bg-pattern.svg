@@ -1,0 +1,27 @@
+<svg width="1280" height="860" viewBox="0 0 1280 860" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="Canvas" fill="none">
+<g id="map-bg-pattern">
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="-5" y="0" width="1290" height="861">
+<path id="Rectangle 6.1" d="M 0.034149 3.26313C 0.0157714 1.50704 1.50306 0.110776 3.25449 0.239858L 1286.22 94.7952C 1287.79 94.9106 1289 96.2157 1289 97.787L 1289 857C 1289 858.657 1287.66 860 1286 860L 11.9688 860C 10.3242 860 8.98614 858.676 8.96893 857.031L 0.034149 3.26313Z" transform="translate(-5 0)" fill="url(#paint0_linear)"/>
+</mask>
+<g mask="url(#mask0)">
+<g id="Group 22" opacity="0.02">
+<circle id="Ellipse" cx="346" cy="346" r="340.5" transform="translate(661 42)" stroke="white" stroke-width="11"/>
+<circle id="Ellipse_2" cx="259" cy="259" r="253.5" transform="translate(335 -5)" stroke="white" stroke-width="11"/>
+<circle id="Ellipse_3" cx="259" cy="259" r="253.5" transform="translate(-154 338)" stroke="white" stroke-width="11"/>
+<circle id="Ellipse_4" cx="333" cy="333" r="327.5" transform="translate(402 556)" stroke="white" stroke-width="11"/>
+<circle id="Ellipse_5" cx="438.5" cy="438.5" r="433" transform="translate(-216 -177)" stroke="white" stroke-width="11"/>
+<circle id="Ellipse_6" cx="333" cy="333" r="327.5" transform="translate(-280 -279)" stroke="white" stroke-width="11"/>
+<circle id="Ellipse_7" cx="285" cy="285" r="279.5" transform="translate(1106 -5)" stroke="white" stroke-width="11"/>
+<circle id="Ellipse_8" cx="285" cy="285" r="279.5" transform="translate(999 521)" stroke="white" stroke-width="11"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-1289 -831.5 5320.19 -8247.41 -1371.09 4970.2)">
+<stop stop-color="#004899"/>
+<stop offset="1" stop-color="#132E75"/>
+</linearGradient>
+</defs>
+</svg>

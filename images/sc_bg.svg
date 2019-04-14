@@ -1,0 +1,32 @@
+<svg width="1280" height="521" viewBox="0 0 1280 521" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="Canvas" fill="none">
+<g id="Mask Group">
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="-1" y="0" width="1282" height="560">
+<path id="Rectangle" d="M 1 0L 1282 0L 1282 456.662L 0 560L 1 0Z" transform="translate(-1 0)" fill="url(#paint0_linear)"/>
+</mask>
+<g mask="url(#mask0)">
+<path id="Vector 2" d="M 383.667 161.125L 310.5 309L 0 386.5L 0 171.5L 217.615 24.2775C 239.037 9.7843 267.337 10.6507 287.833 26.4273L 366.488 86.9709C 389.167 104.428 396.36 135.473 383.667 161.125Z" transform="translate(-42 134)" fill="url(#paint1_linear)"/>
+<path id="Vector 2.1" d="M 441.141 177.645L 354.529 352.572L 0 441L 0 195.683L 253.578 24.2491C 274.993 9.77099 303.275 10.6367 323.764 26.3976L 423.953 103.463C 446.65 120.921 453.847 151.984 441.141 177.645Z" transform="translate(862 3)" fill="url(#paint2_linear)"/>
+<path id="Vector" d="M 25.9008 227.698L 118.5 42.5L 706.5 0L 726.695 108.549C 731.534 134.559 722.312 161.194 702.425 178.643L 343.421 493.638C 315.138 518.453 272.846 518.472 244.541 493.681L 43.5678 317.659C 17.9033 295.181 10.6434 258.213 25.9008 227.698Z" transform="translate(359 -319)" fill="url(#paint3_linear)"/>
+</g>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-1305.5 -537.349 7556.04 -5468.85 -2480.52 3271.77)">
+<stop stop-color="#004899"/>
+<stop offset="1" stop-color="#132E75"/>
+</linearGradient>
+<linearGradient id="paint1_linear" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-54 232 -243.405 -56.6546 468.702 71.3273)">
+<stop stop-color="white" stop-opacity="0.04"/>
+<stop offset="1" stop-color="white" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="paint2_linear" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-61.6572 264.714 -277.92 -64.6434 535.165 81.3851)">
+<stop stop-color="white" stop-opacity="0.04"/>
+<stop offset="1" stop-color="white" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="paint3_linear" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(297 -528.5 744.248 309.452 -79.6242 357.274)">
+<stop stop-color="white" stop-opacity="0.04"/>
+<stop offset="1" stop-color="white" stop-opacity="0"/>
+</linearGradient>
+</defs>
+</svg>

@@ -1,0 +1,121 @@
+// section padding
+.py-section-1
+    padding: 1.5rem 0
+.py-section-2
+    padding: 2rem 0
+.py-section-3
+    padding: 3.2rem 0
+.py-section-4
+    padding: 5rem 0
+.py-section-5
+    padding: 7rem 0
+
+
+// buttons
+
+.btn-argenper-primary
+    background-color: $main-color-2
+    color: white
+    box-shadow: $card__shadow !important
+    transition: all .3s ease
+    &:hover
+        background-color: $second-color
+        color: white
+        box-shadow: 0px 2px 5px rgba(232, 14, 55, 0.15), 0px 10px 25px rgba(232, 14, 55, 0.25) !important
+    &:active:focus
+        color: rgba(white, .8)
+        transform: translateY(3px)
+    &.active
+        background-color: $second-color
+        color: white
+        box-shadow: 0px 2px 5px rgba(232, 14, 55, 0.15), 0px 10px 25px rgba(232, 14, 55, 0.25) !important
+
+.btn-argenper-secondary
+    background-color: $second-color
+    color: white
+    box-shadow: $card__shadow !important
+    transition: all .3s ease
+    &:hover
+        background-color: $main-color-2
+        color: white
+        box-shadow: 0px 2px 5px rgba($main-color-2, 0.15), 0px 10px 25px rgba($main-color-2, 0.25) !important
+    &:active:focus
+        color: rgba(white, .8)
+        transform: translateY(3px)
+    &.active
+        background-color: $main-color-2
+        color: white
+        box-shadow: 0px 2px 5px rgba($main-color-2, 0.15), 0px 10px 25px rgba($main-color-2, 0.25) !important
+
+.btn-rounded
+    border-radius: 4rem
+
+.btn-md
+    padding: 1rem 2rem
+.btn-lg
+    padding: 1.2rem 2rem
+
+// shadow
+.nav-shadow
+    box-shadow: $nav-shadow
+.no-shadow
+    box-shadow: none !important
+
+// boxes
+.box-2
+    box-shadow: $card__shadow
+    padding: 1rem
+    border-radius: 3px
+.box-5
+    background-color: white
+    box-shadow: 0px 10px 35px rgba(0, 0, 0, 0.13)
+    padding: 2rem 3rem
+    border-radius: 3px
+
+// text colors
+.main-text
+    color: $main-color !important
+.second-text
+    color: $second-color !important
+
+.mt-18rem
+    margin-top: 18rem
+
+.mandatory
+    color: $second-color
+
+.section-light
+    @extend .about
+
+.mb-100px
+    margin-bottom: 100px
+
+.second-font
+    font-family: $second-font
+
+.font-13
+    font-size: 13px
+.font-1rem
+    font-size: 1rem
+
+
+.flex-grow-1
+    flex-grow: 1
+
+.justify-content-evenly
+    justify-content: space-evenly
+
+.scroll-top
+    +position(fixed, null, 1rem, 1rem, null)
+    display: inline-block
+    background-color: $main-color
+    width: 32px
+    height: 32px
+    text-align: center
+    line-height: 32px
+    color: white
+    border-radius: 100%
+    .fa
+        font-size: 1.5rem
+    &:hover
+        color: $third-color

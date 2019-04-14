@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="description" content="Envío de dinero a toda latinoamérica, con las tasas mas bajas del mercado, envia dinero ya, Argenper la manera más fácil de enviar su dinero. Envía dinero a Perú, Envía dinero a chile, Envía dinero a Ecuador.">
+    <meta name="keywords" content="enviar dinero ahora, envia dinero, remesas familiares, como enviar dinero al exterior, envio de dinero argentina, envio de dinero a peru, envio de dinero a chile, envio de dinero al extranjero, recibe tu dinero, empresas de remesas en buenos aires, empresas de remesas en argentina, remesas familiares en capital federal, remesas para familias en bolivia, empresa confiable de remesas, argenper argentina">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Argenper - La manera más fácil de enviar su dinero</title>
+
+    <link rel="stylesheet" href="css-2.0/bootstrap.min.css">
+    <link rel="stylesheet" href="css-2.0/font-awesome.min.css">
+    <link rel="stylesheet" href="css-2.0/slick.css">
+    <link rel="stylesheet" href="css-2.0/slick-theme.css">
+    <link rel="stylesheet" href="css-2.0/jquery.mapify.css">
+    <link rel="stylesheet" href="css-2.0/animate.css">
+
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700,800" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Boogaloo" rel="stylesheet">
+
+    <!-- pe-stroke-icons -->
+    <link rel="stylesheet" href="css-2.0/pe-icon-7-stroke.css">
+    <link rel="stylesheet" href="css-2.0/pe-icon-7-stroke--helper.css">
+
+    <!-- main css -->
+    <link rel="stylesheet" href="css-2.0/main.css">
+
+    <!-- favicon -->
+    <link rel="icon" href="images/favicon.png" type="image/x-icon"/>
+</head>
+
+<body>
+
+    <div class="sticky-top">
+        <div class="toolbar">
+            <div class="container-fluid">
+                <div class="row px-2 px-md-4">
+
+                    <!-- <div class="toolbar__text d-none d-md-inline-block">Some text to de left</div> -->
+
+                    <div class="tools mx-auto ml-md-auto mr-md-0">
+
+                        <div id="country" class="dropdown">
+                            <a class="btn text-white py-0  dropdown-toggle no-shadow d-none d-md-inline-block" href="#" role="button" id="country-dd" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Argentina
+                            </a>
+                            <a class="btn text-white py-0 px-2 px-md-3 dropdown-toggle no-shadow d-inline-block d-md-none" href="#" role="button" id="country-dd" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Arg
+                            </a>
+
+                            <div class="dropdown-menu" aria-labelledby="country-dd">
+                                <a class="dropdown-item" href="http://argenper.com.ar">Argentina</a>
+                                <a class="dropdown-item" href="http://argenper.com.bo">Bolivia</a>
+                                <a class="dropdown-item" href="http://argenper.com.br">Brasil</a>
+                                <a class="dropdown-item" href="http://argenper.cl">Chile</a>
+                                <a class="dropdown-item" href="http://argenper.ec">Ecuador</a>
+                                <a class="dropdown-item" href="http://argenper.com.pe">Perú</a>
+                            </div>
+                        </div>
+
+                        <div id="lang" class="dropdown">
+                            <a class="btn text-white py-0 px-2 px-md-3 dropdown-toggle no-shadow" href="#" role="button" id="lang-dd" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                ESP
+                            </a>
+
+                            <div class="dropdown-menu" aria-labelledby="lang-dd">
+                                <a class="dropdown-item" href="#!">ESP</a>
+                                <a class="dropdown-item" href="#!">EN</a>
+                            </div>
+                        </div>
+
+                        <div class="tools__item--divider"></div>
+
+                        <div class="tools__item">
+                            <a href="/argenper-rastreo.php" class="tools__link d-none d-md-inline-block">RASTREO DE ENVÍOS</a>
+                            <a href="/argenper-rastreo.php" class="tools__link d-inline-block d-md-none">RAST. ENVÍOS</a>
+                        </div>
+
+                        <!-- <div class="tools__item--divider"></div> -->
+
+                        <!-- <div class="tools__item">
+                            <a href="#" class="tools__link d-none d-md-inline-block">INGRESAR</a>
+                            <a href="#" class="tools__link d-inline-block d-md-none" title="Ingresar"><i class="fa fa-sign-in" style="font-size: 22px"></i></a>
+                        </div> -->
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-md navbar-light bg-white nav-shadow">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/">
+                    <img src="images/logo.png" alt="Argenper" title="Argenper - La manera más fácil de enviar su dinero" class="img-fluid logo" >
+                </a>
+
+                <div>
+                    <!-- <a href="#!" class="nav-item btn btn-primary py-2 ml-0 ml-md-3 d-none d-sm-inline-block d-md-none" data-toggle="modal" data-target="#newAccountModal">Crear cuenta</a> -->
+
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                </div>
+
+                <div class="collapse navbar-collapse" id="main-nav">
+                    <ul class="navbar-nav ml-auto align-items-md-center">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#!" role="button" id="aboutus-dd" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Nosotros</a>
+                            <div class="dropdown-menu" aria-labelledby="aboutus-dd">
+                                <a class="dropdown-item" href="quienes-somos.php">Sobre nosotros</a>
+                                <a class="dropdown-item" href="nuestra-mision.php">Nuestra Misión</a>
+                                <a class="dropdown-item" href="nuestra-vision.php">Nuestra Visión</a>
+                                <a class="dropdown-item" href="nuestros-objetivos.php">Nuestros objetivos</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="preguntas-frecuentes.php">Preguntas frecuentes</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/envio-de-giros.php">Enviar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-item nav-link" href="/cobro-de-giros.php">Cobrar</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#!" role="button" id="sucursales-dd" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sucursales</a>
+                            <div class="dropdown-menu" aria-labelledby="sucursales-dd">
+                                <a class="dropdown-item bg-danger text-white"  href="#!">Buscador de sucursales</a>
+                                <a class="dropdown-item" href="sucursales/index.php">Ver todas</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="sucursales/capital-federal/">Argentina</a>
+                                <a class="dropdown-item" href="sucursales/internacionales/bolivia/">Bolivia</a>
+                                <a class="dropdown-item" href="sucursales/internacionales/chile/">Chile</a>
+                                <a class="dropdown-item" href="sucursales/internacionales/ecuador/">Ecuador</a>
+                                <a class="dropdown-item" href="sucursales/internacionales/peru/">Peru</a>
+                                <a class="dropdown-item" href="sucursales/internacionales/estados-unidos/">Estados Unidos</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-item nav-link" href="contacto">Contacto</a>
+                        </li>
+                        <!-- <a href="#!" class="nav-item btn btn-primary py-2 ml-0 ml-md-3 d-sm-none d-md-inline-block" data-toggle="modal" data-target="#newAccountModal">Crear cuenta</a> -->
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+    </div>
+
+    <main>
+
+        <section id="page-header">
+            <div class="page__header">
+                <div class="container">
+                    <h1 class="page__header--title">Preguntas frecuentes</h1>
+                    <div class="page__header--desc--wrapper">
+                        <p class="page__header--desc">¿Qué tiempo toma el envío de dinero para estar en destino?</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="faqs">
+            <div class="section-light py-section-4">
+                <div class="container">
+
+                    <div class="row">
+                        <div class="col-md-10 col-lg-8 mx-auto">
+
+                            <div class="accordion" id="faqsAccordion">
+
+                                <div class="card">
+                                    <a href="" class="card-header collapsed" id="pregunta1" data-toggle="collapse" data-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                                        ¿Qué servicios realiza Argenper?
+                                    </a>
+                                    <div id="collapse1" class="collapse" aria-labelledby="pregunta1" data-parent="#faqsAccordion" style="">
+                                        <div class="card-body">
+                                            <p>Envío y retiro de dinero a nivel nacional e internacional.</p>
+                                            <p>Envíos de correspondencia (sobres, cartas, documentos a todo el mundo)</p>
+                                            <p>Envío de Encomiendas a Perú.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card">
+                                    <a href="" class="card-header collapsed" id="pregunta3" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                                        ¿Qué destinos cubre los servicios que brinda ARGENPER?
+                                    </a>
+                                    <div id="collapse3" class="collapse" aria-labelledby="pregunta3" data-parent="#faqsAccordion" style="">
+                                        <div class="card-body">
+                                            <p>En el ámbito internacional, tenemos presencia directa en Argentina, Bolivia, Chile, Ecuador, Perú y Uruguay; asimismo, a través de empresas sólidas y de prestigio, nuestro servicio alcanza a 180 países de Europa, África, Asia, Centro y Sur América. En el ámbito nacional; nos encontramos en Rosario, Córdoba, Salta, Mendoza, Puerto Madryn y Comodoro Rivadavia.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card">
+                                    <a href="" class="card-header collapsed" id="pregunta4" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                                        ¿Cómo debo acceder a los servicios de ARGENPER?
+                                    </a>
+                                    <div id="collapse4" class="collapse" aria-labelledby="pregunta4" data-parent="#faqsAccordion" style="">
+                                        <div class="card-body">
+                                            <p>El servicio se atiende presencialmente en <a href="/sucursales">nuestras agencias</a>, en ellas usted obtendrá un recibimiento cordial e información precisa y variada para la ejecución de sus operaciones de envío y retiro de dinero. También, una modalidad implementada, son los depósitos bancarios; para mismos que son enviados al exterior, se realiza el depósito del importe a la Cta. Bancaria de Argenper, la misma que debe ser comunicado a una operadora de Call Center de la empresa, quien tomara los detalles (información) para el envío de su dinero, modalidad implementada para quienes se ubican en lugares donde Argenper no cuenta con agencia, o clientes que obvian el servicio presencial. Para los casos de retiro o entrega de dinero, la empresa a través de su personal, realiza el depósito del dinero que ha sido previamente remitido u ordenado a una Cta. Bancaria. Los pormenores de tales operaciones, son comunicadas prolijamente a los clientes.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="card">
+                                    <a href="" class="card-header collapsed" id="pregunta6" data-toggle="collapse" data-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+                                        ¿Qué documentación se requiere para realizar operaciones de envío o retiro de dinero?
+                                    </a>
+                                    <div id="collapse6" class="collapse" aria-labelledby="pregunta6" data-parent="#faqsAccordion" style="">
+                                        <div class="card-body">
+                                            <p>Toda operación de retiro o envío de dinero, requiere la presentación del documento de identidad vigente y CUIL. En caso de ser turista con pasaporte, cédula o DNI con la visa tiene que estar vigente.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card">
+                                    <a href="" class="card-header collapsed" id="pregunta7" data-toggle="collapse" data-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
+                                        ¿Mis giros me entregan en dolares?
+                                    </a>
+                                    <div id="collapse7" class="collapse" aria-labelledby="pregunta7" data-parent="#faqsAccordion" style="">
+                                        <div class="card-body">
+                                            <p>Los giros se entregan en dólares, previa coordinación de 24 horas, llamando al siguiente número: <a href="tel:5236-3850"><b>5236-3850</b></a>.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card">
+                                    <a href="" class="card-header collapsed" id="pregunta8" data-toggle="collapse" data-target="#collapse8" aria-expanded="true" aria-controls="collapse8">
+                                        Si tengo dólares, ¿puedo cambiarlos en cualquiera de las oficinas de ARGENPER?
+                                    </a>
+                                    <div id="collapse8" class="collapse" aria-labelledby="pregunta8" data-parent="#faqsAccordion">
+                                        <div class="card-body">
+                                            <p>Lo sentimos pero no somos casa de cambio.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card">
+                                    <a href="" class="card-header collapsed" id="pregunta9" data-toggle="collapse" data-target="#collapse9" aria-expanded="true" aria-controls="collapse9">
+                                        ¿Es posible verificar el estado de las órdenes de envió?
+                                    </a>
+                                    <div id="collapse9" class="collapse" aria-labelledby="pregunta9" data-parent="#faqsAccordion">
+                                        <div class="card-body">
+                                            <p>Sí, a través de nuestro servicio de <a href="/argenper-rastreo.php">rastreo de envíos</a> que se encuentra en nuestra página web.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card">
+                                    <a href="" class="card-header collapsed" id="pregunta10" data-toggle="collapse" data-target="#collapse10" aria-expanded="false" aria-controls="collapse10">
+                                        ¿Cuál es el procedimiento ante un reclamo?
+                                    </a>
+                                    <div id="collapse10" class="collapse" aria-labelledby="pregunta10" data-parent="#faqsAccordion" style="">
+                                        <div class="card-body">
+                                            <p>Se ha implementado, conforme a la norma, tres modalidades para interponer los reclamos:</p>
+                                            <p><b>Presencial</b>, presentando en ventanilla el formulario de reclamo, debidamente llenado, documento que le proporcionara el encargado de atender los reclamos del cliente, quien además le brindará la orientación pertinente.</p>
+                                            <p><b>Mediante vía telefónica <a href="tel:011 5236-3860">011 5236-3860</a></b>, reclamo que será atendido y registrado por nuestra operadora.</p>
+                                            <p><b>A través del email: <a href="mailto:atc@arperexpress.com.ar">atc@arperexpress.com.ar</a></b></p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+        <section id="atencion">
+            <div class="gallery-section">
+                <div class="container">
+                    <div class="sec__heading text-center mb-5">
+                        <h2 class="sec__title">Centro de atención al cliente</h2>
+                        <div class="sec__desc">Horarios de atención de lunes a viernes de 9:00 a 18:00 hs / sábados de 9:00 - 13:00 hs</div>
+                    </div>
+                    <div class="row pt-md-5">
+                        <div class="col-md-4">
+                            <a href="ayuda" class="centroAtencion__item mb-5 mb-md-0">
+                                <i class="pe pe-7s-users pe-4x"></i>
+                                <h3 class="centroAtencion__title">Conviertete en un Agente</h3>
+                                <h5 class="centroAtencion__subtitle">de Argenper</h5>
+                            </a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="#!" class="centroAtencion__item mb-5 mb-md-0">
+                                <i class="pe pe-7s-chat pe-4x"></i>
+                                <h3 class="centroAtencion__title">Para consultas online</h3>
+                                <h5 class="centroAtencion__subtitle">ir al chat</h5>
+                            </a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="tel:5236-3850" class="centroAtencion__item mb-5 mb-md-0">
+                                <i class="pe pe-7s-headphones pe-4x"></i>
+                                <h3 class="centroAtencion__title">Atención al cliente</h3>
+                                <h5 class="centroAtencion__subtitle">5236 - 3850</h5>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="social">
+            <div class="py-section-3">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <a href="https://www.facebook.com/ArgenperAR" class="btn-social mb-2 mb-md-0" target="_blank" title="/argenperar">
+                                <span class="social__icon _fb"><i class="fa fa-facebook"></i></span>
+                                <span class="social__text">/argenperar</span>
+                            </a>
+                        </div>
+                        <div class="col-md-3">
+                            <a href="http://twitter.com/argenperAR" class="btn-social mb-2 mb-md-0" target="_blank" title="@argenperar">
+                                <span class="social__icon _tw"><i class="fa fa-twitter"></i></span>
+                                <span class="social__text">@argenperar</span>
+                            </a>
+                        </div>
+                        <div class="col-md-3">
+                            <a href="https://www.instagram.com/argenperargentina" class="btn-social mb-2 mb-md-0" target="_blank" title="@argenperargentina">
+                                <span class="social__icon _ig"><i class="fa fa-instagram"></i></span>
+                                <span class="social__text">@argenperargentina</span>
+                            </a>
+                        </div>
+                        <div class="col-md-3">
+                            <a href="http://www.youtube.com/user/argenperargentina" class="btn-social mb-2 mb-md-0" target="_blank" title="/argenperargentina">
+                                <span class="social__icon _yt"><i class="fa fa-youtube-play"></i></span>
+                                <span class="social__text">/argenperargentina</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <section id="fooCta">
+        <div class="fooCta">
+            <div class="container">
+                <div class="row px-3">
+                    <h3 class="fooCta__title my-auto text-center text-md-left ">¿CÓMO FUNCIONA NUESTRO SERVICIO DE <span class="highlight">ENVÍO DE DINERO</span>?</h3>
+                    <a class="btn btn-outline-light btn-lg  mt-4 mt-md-0 mx-auto ml-md-auto mr-md-0" href="#">Ver video</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="bigFooter py-section-5">
+            <div class="container pb-5">
+                <div class="row">
+
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="col-6 mb-4">
+                                <ul class="bigFooter__menu">
+                                    <span class="bigFooter__menu__title">Nosotros</span>
+                                    <li class="bigFooter__menu__item">
+                                        <a href="/quienes-somos.php" class="bigFooter__menu__link">Quienes somos</a>
+                                    </li>
+                                    <li class="bigFooter__menu__item">
+                                        <a href="/nuestra-mision.php" class="bigFooter__menu__link">Nuestra misión</a>
+                                    </li>
+                                    <li class="bigFooter__menu__item">
+                                        <a href="/nuestra-vision.php" class="bigFooter__menu__link">Nuestra visión</a>
+                                    </li>
+                                    <li class="bigFooter__menu__item">
+                                        <a href="/nuestros-objetivos.php" class="bigFooter__menu__link">Nuestros objetivos</a>
+                                    </li>
+                                    <li class="bigFooter__menu__item">
+                                        <a href="/afiliados" class="bigFooter__menu__link">Afiliados</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-6 mb-4">
+                                <ul class="bigFooter__menu">
+                                    <span class="bigFooter__menu__title">Servicios</span>
+                                    <li class="bigFooter__menu__item">
+                                        <a href="/envio-de-giros.php" class="bigFooter__menu__link">Envío de Giros</a>
+                                    </li>
+                                    <li class="bigFooter__menu__item">
+                                        <a href="/retiro-de-giros.php" class="bigFooter__menu__link">Retiro de Giros</a>
+                                    </li>
+                                    <li class="bigFooter__menu__item">
+                                        <a href="/envio-de-documentos-php" class="bigFooter__menu__link">Envío de documentos</a>
+                                    </li>
+                                    <li class="bigFooter__menu__item">
+                                        <a href="/depositos-bancarios.php" class="bigFooter__menu__link">Depósitos bancarios</a>
+                                    </li>
+                                    <li class="bigFooter__menu__item">
+                                        <a href="/giros-a-domicilio.php" class="bigFooter__menu__link">Giros a domicilio</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-6 mb-4">
+                                <ul class="bigFooter__menu">
+                                    <span class="bigFooter__menu__title">Soporte</span>
+                                    <li class="bigFooter__menu__item">
+                                        <a href="/soporte" class="bigFooter__menu__link">FAQs</a>
+                                    </li>
+                                    <li class="bigFooter__menu__item">
+                                        <a href="/soporte/seguridad.php" class="bigFooter__menu__link">Seguridad</a>
+                                    </li>
+                                    <li class="bigFooter__menu__item">
+                                        <a href="/soporte/social.php" class="bigFooter__menu__link">Social</a>
+                                    </li>
+                                    <li class="bigFooter__menu__item">
+                                        <a href="/soporte/sugerencias.php" class="bigFooter__menu__link">Sugerencias</a>
+                                    </li>
+                                    <li class="bigFooter__menu__item">
+                                        <a href="/soporte/politicas.php" class="bigFooter__menu__link">Políticas</a>
+                                    </li>
+                                    <li class="bigFooter__menu__item">
+                                        <a href="/soporte/terminos-y-condiciones.php" class="bigFooter__menu__link">Términos y condiciones</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-6 mb-4">
+                                <ul class="bigFooter__menu">
+                                    <span class="bigFooter__menu__title">Ayuda</span>
+                                    <li class="bigFooter__menu__item">
+                                        <a href="/ayuda" class="bigFooter__menu__link">Trabaja con nosotros</a>
+                                    </li>
+                                    <li class="bigFooter__menu__item">
+                                        <a href="/ayuda" class="bigFooter__menu__link">Hazte agente</a>
+                                    </li>
+                                    <li class="bigFooter__menu__item">
+                                        <a href="/ayuda" class="bigFooter__menu__link">Como trabajamos</a>
+                                    </li>
+                                    <li class="bigFooter__menu__item">
+                                        <a href="/ayuda" class="bigFooter__menu__link">Guía de videos</a>
+                                    </li>
+                                    <li class="bigFooter__menu__item">
+                                        <a href="/ayuda" class="bigFooter__menu__link">Guía de aplicaciones</a>
+                                    </li>
+                                    <li class="bigFooter__menu__item">
+                                        <a href="/ayuda" class="bigFooter__menu__link">Últimas noticias</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="dudasConsultas text-center">
+                            <i class="pe-7s-comment pe-5x"></i>
+                            <h3>Dudas o consultas</h3>
+                            <h5>Guía por teléfono</h5>
+                            <span class="tel-number"><i class="pe-7s-phone pe-2x pe-va"></i> 11 5236-3850</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="footer py-section-2">
+                &copy; 2018 Argenper. Todos los derechos reservados. Desarrollado por <a href="http://viaintimedia.com/" class="footer__link">Viaintimedia</a>
+            </div>
+        </div>
+    </footer>
+
+    <div class="chat__icon">
+        <a href="#!" data-toggle="modal" data-target="#chatModal"><img src="images/chat-icon.png" class="img-fluid chat__icon--img"></a>
+    </div>
+
+    <!-- create account modal -->
+    <div class="modal fade" id="newAccountModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+
+                <div class="modal__login--header">
+                    <h5 class="modal-title">Registrarse</h5>
+                </div>
+
+                <form>
+                    <div class="modal__login--body">
+                          <div class="form-group">
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Correo">
+                          </div>
+                          <div class="form-group">
+                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña">
+                          </div>
+                          <div class="form-group">
+                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Repetir contraseña">
+                          </div>
+                          <div class="o-separator">ó</div>
+
+                          <div class="connect__social mb-4">
+                              <a href="#!" class="fb"><i class="fa fa-facebook"></i></a>
+                              <a href="#!" class="tw"><i class="fa fa-twitter"></i></a>
+                              <a href="#!" class="lkdin"><i class="fa fa-linkedin"></i></a>
+                          </div>
+
+                          <div class="already__account text-center">Ya tienes cuenta? <a href="#!">Ingresa aquí</a>.</div>
+                    </div>
+
+                    <button class="btn btn-primary btn-block btn-md">Registrarme</button>
+                </form>
+
+                <a href class="btn-modal-close" data-dismiss="modal"><i class="pe-7s-close pe-2x"></i></a>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- chat modal -->
+    <div class="modal fade" id="chatModal" tabindex="-1" role="dialog" aria-labelledby="chatModal" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+
+                    <div class="modal__login--body">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col">
+                                    <a href="https://web.whatsapp.com/send?l=es&amp;phone=541160123286&amp;text=Hola Argenper, te envío este mensaje desde www.argenper.com.ar" target="_blank" class="chatModal__item">
+                                        <i class="fa fa-whatsapp fa-3x mb-2"></i>
+                                        <h5>Whatsapp</h5>
+                                    </a>
+                                </div>
+                                <div class="col">
+                                    <a href="#!" class="chatModal__item">
+                                        <i class="fa fa-comments-o fa-3x mb-2"></i>
+                                        <h5>Chat online</h5>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                <a href class="btn-modal-close" data-dismiss="modal"><i class="pe-7s-close pe-2x"></i></a>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript ================================================== -->
+    <script src="js-2.0/jquery.min.js"></script>
+    <script src="js-2.0/popper.min.js"></script>
+    <script src="js-2.0/bootstrap.min.js"></script>
+    <!-- Bootstrap core JavaScript - ENDS ============================================ -->
+    <script src="js-2.0/slick.js"></script>
+    <script src="js-2.0/jquery.mapify.js"></script>
+
+    <script src="js-2.0/main.js"></script>
+
+    <!-- google analytics -->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-46992731-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+</body>
+</html>

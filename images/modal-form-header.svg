@@ -1,0 +1,12 @@
+<svg width="390" height="88" viewBox="0 0 390 88" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="Canvas" fill="none">
+<g id="modal-form-header">
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="390" height="555">
+<rect id="Rectangle 6.1" width="390" height="555" rx="3" fill="white"/>
+</mask>
+<g mask="url(#mask0)">
+<circle id="Ellipse" cx="575.5" cy="575.5" r="575.5" transform="translate(-380 -1063)" fill="#004899"/>
+</g>
+</g>
+</g>
+</svg>
